@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- QWeb Reports -->
+
+        <report 
+            id="action_report_partnerstatement"
+            model="account.report.partner.statement"
+            string="Partner Statement"
+            report_type="qweb-pdf"
+            name="account.report_partnerstatement"
+            file="cust_account.report_partnerstatement"
+            />
+        
+    </data>
+</odoo>
